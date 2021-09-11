@@ -1,0 +1,97 @@
+body {
+  background-color: #cacaca;
+}
+
+.container {
+  width: 950px;
+  min-height: 600px;
+  margin: 0 auto;
+  padding: 50px 35px;
+  background-image: url(7d67bffc26ff902490cb57a426d741e9.png);
+  border: 1px solid #c0c0c0;
+}
+
+.file-box {
+  position: relative;
+  height: 250px;
+  border: 1px solid #000000;
+}
+
+.overlapped {
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0; margin: 0;
+  opacity: 0.1;
+  width: 100%;
+}
+
+.file-box, .overlapped, .overlap {
+  border-radius: 25px;
+}
+
+.overlap {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0; left: 0; bottom: 0; right: 0; margin: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.overlap-dnd {
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+p {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.preview-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+}
+
+.preview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  border: 1px solid #000000;
+  background-color: #ffffff;
+}
+
+.preview:first-child {
+  margin-left: 0;
+}
+
+.preview-image {
+  display: block;
+  width: 100%;
+  max-height: 100%;
+}
+
+.delete-button {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  background-image: url(data:image/png;base64,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);
+  background-size: cover;
+  border: 1px solid #000000;
+  border-radius: 50px;
+}
+
