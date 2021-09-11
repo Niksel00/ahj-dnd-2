@@ -1,7 +1,7 @@
 {
   "name": "ahj-dnd-1",
   "version": "1.0.0",
-  "description": "[GitHub Pages](https://niksel00.github.io/ahj-dnd-1/)",
+  "description": "[GitHub Pages](https://niksel00.github.io/ahj-dnd-2/)",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -40,9 +40,9 @@
   "dependencies": {
     "core-js": "^3.6.5"
   },
-  "repository": "git+https://github.com/Niksel00/ahj-dnd-1.git",
+  "repository": "git+https://github.com/Niksel00/ahj-dnd-2.git",
   "bugs": {
-    "url": "https://github.com/Niksel00/ahj-dnd-1/issues"
+    "url": "https://github.com/Niksel00/ahj-dnd-2/issues"
   },
-  "homepage": "https://github.com/Niksel00/ahj-dnd-1#readme"
+  "homepage": "https://github.com/Niksel00/ahj-dnd-2#readme"
 }
